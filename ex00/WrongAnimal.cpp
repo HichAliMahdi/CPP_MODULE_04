@@ -6,11 +6,11 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 18:51:18 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/06 18:57:36 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/04/06 19:04:22 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Animal.hpp"
+#include "WrongAnimal.hpp"
 
 WrongAnimal::WrongAnimal() : type("WrongAnimal")
 {
