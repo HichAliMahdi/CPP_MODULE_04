@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 17:17:41 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/06 18:51:53 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/04/06 18:56:48 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,7 @@ class WrongAnimal
 
         void            setType(const std::string type);
         std::string     getType() const;
-        virtual void    makeSound() const;
+        void            makeSound() const;
 };
 
 #endif
