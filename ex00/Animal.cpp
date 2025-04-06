@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 17:39:35 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/06 18:20:41 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/04/06 18:23:22 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,30 +50,4 @@ Animal& Animal::operator=(const Animal& other)
 void Animal::makeSound() const
 {
     std::cout << "Animal makes a generic sound" << std::endl;
-}
-
-Dog::Dog() : Animal()
-{
-    this->type = "Dog";
-    std::cout << "Dog constructor called" << std::endl;
-}
-Dog::Dog(const Dog& other)
-{
-    std::cout << "Dog copy constructor called" << std::endl;
-}
-
-Dog::~Dog()
-{
-    std::cout << "Dog deconstructor called" << std::endl;
-}
-
-
-Cat::Cat() : Animal()
-{
-    this->type = "Cat";
-}
-
-Cat::Cat(const Cat& other)
-{
-    std::cout << "Cat copy constructor called" << std::endl;
 }
