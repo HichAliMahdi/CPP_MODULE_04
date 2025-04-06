@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 17:17:41 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/06 17:43:25 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/04/06 18:19:42 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,15 +36,19 @@ class Dog : public Animal
 {
     public:
         Dog();
+        Dog(const Dog& other);
+        Dog &operator=(const Dog &other);
         ~Dog();
-        void makesound() const;
+        void makeSound() const;
 };
 
 class Cat : public Animal
 {
     public:
         Cat();
+        Cat(const Cat& other);
+        Cat &operator=(const Cat &other);
         ~Cat();
-        void makesount() const;
+        void makeSound() const;
 };
 #endif
