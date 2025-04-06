@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 19:00:47 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/06 19:03:52 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/04/06 19:07:02 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,8 +36,9 @@ class WrongCat : public WrongAnimal
     public:
         WrongCat();
         WrongCat(const WrongCat& other);
+        ~WrongCat();
         WrongCat &operator=(const WrongCat &other);
-        void    makesound() const;
+        void    makeSound() const;
 };
 
 #endif
