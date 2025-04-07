@@ -6,11 +6,11 @@
 #    By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/06 18:42:45 by hali-mah          #+#    #+#              #
-#    Updated: 2025/04/07 14:14:16 by hali-mah         ###   ########.fr        #
+#    Updated: 2025/04/07 14:44:35 by hali-mah         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = Brain
+NAME = Abstract
 CC = c++
 CFLAGS = -Wall -Werror -Wextra -std=c++17
 

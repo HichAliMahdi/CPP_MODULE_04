@@ -6,14 +6,14 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 18:22:28 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/07 14:31:48 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/04/07 14:50:56 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Animal.hpp"
+#include "AAnimal.hpp"
 
 
-Cat::Cat() : Animal()
+Cat::Cat() : AAnimal()
 {
     this->type = "Cat";
     this->brain = new Brain();
@@ -32,7 +32,7 @@ Cat& Cat::operator=(const Cat &other)
     std::cout << "Cat assignment operator called" << std::endl;
     if (this != &other)
     {
-        Animal::operator=(other);
+        AAnimal::operator=(other);
         delete this->brain;
         this->brain = new Brain(*(other.brain));
     }

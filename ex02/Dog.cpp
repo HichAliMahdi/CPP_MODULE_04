@@ -6,20 +6,20 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 18:22:58 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/07 14:32:01 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/04/07 14:51:15 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Animal.hpp"
+#include "AAnimal.hpp"
 
-Dog::Dog() : Animal()
+Dog::Dog() : AAnimal()
 {
     this->type = "Dog";
     this->brain = new Brain();
     std::cout << "Dog constructor called" << std::endl;
 }
 
-Dog::Dog(const Dog& other) : Animal(other)
+Dog::Dog(const Dog& other) : AAnimal(other)
 {
     std::cout << "Dog copy constructor called" << std::endl;
     this->brain = new Brain(*(other.brain));
@@ -31,7 +31,7 @@ Dog& Dog::operator=(const Dog& other)
     std::cout << "Dog assignment operator called" << std::endl;
     if (this != &other)
     {
-        Animal::operator=(other);
+        AAnimal::operator=(other);
         delete this->brain;
         this->brain = new Brain(*(other.brain));
     }

@@ -1,39 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Animal.hpp                                         :+:      :+:    :+:   */
+/*   AAnimal.hpp                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 17:17:41 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/07 14:12:36 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/04/07 14:49:30 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ANIMAL_HPP
-# define ANIMAL_HPP
+#ifndef AANIMAL_HPP
+# define AANIMAL_HPP
 
 #include <iostream>
 #include <string>
 #include "Brain.hpp"
 
-class Animal
+class AAnimal
 {
     protected:
         std::string type;
 
     public:
-        Animal();
-        Animal(const Animal& other);
-        Animal& operator=(const Animal& other);
-        virtual ~Animal();
+        AAnimal();
+        AAnimal(const AAnimal& other);
+        AAnimal& operator=(const AAnimal& other);
+        virtual ~AAnimal();
 
         void            setType(const std::string type);
         std::string     getType() const;
-        virtual void    makeSound() const;
+        virtual void    makeSound() const = 0; // this is the pure virtual function
 };
 
-class Dog : public Animal
+class Dog : public AAnimal
 {
     private:
         Brain*  brain;
@@ -47,7 +47,7 @@ class Dog : public Animal
         Brain* getBrain() const;
 };
 
-class Cat : public Animal
+class Cat : public AAnimal
 {
     private:
         Brain*  brain;
