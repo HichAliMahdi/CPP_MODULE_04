@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 17:17:41 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/06 19:01:15 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/04/07 14:05:03 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,9 @@ class Animal
 
 class Dog : public Animal
 {
+    private:
+        Brain*  brain;
+
     public:
         Dog();
         Dog(const Dog& other);
@@ -44,6 +47,8 @@ class Dog : public Animal
 
 class Cat : public Animal
 {
+    private:
+        Brain*  brain;
     public:
         Cat();
         Cat(const Cat& other);

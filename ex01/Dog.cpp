@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 18:22:58 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/06 18:23:59 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/04/07 14:05:33 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 Dog::Dog() : Animal()
 {
     this->type = "Dog";
+    this->brain = 
     std::cout << "Dog constructor called" << std::endl;
 }
 
