@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 18:22:28 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/07 14:16:17 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/04/07 14:31:48 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ Cat::Cat(const Cat& other)
 {
     std::cout << "Cat copy constructor called" << std::endl;
     this->brain = new Brain(*(other.brain));
+    this->type = other.type;
 }
 
 Cat& Cat::operator=(const Cat &other)
