@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 17:17:41 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/07 14:05:03 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/04/07 14:12:36 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 #include <iostream>
 #include <string>
+#include "Brain.hpp"
 
 class Animal
 {
@@ -43,6 +44,7 @@ class Dog : public Animal
         Dog &operator=(const Dog &other);
         ~Dog();
         void makeSound() const;
+        Brain* getBrain() const;
 };
 
 class Cat : public Animal
@@ -55,6 +57,7 @@ class Cat : public Animal
         Cat &operator=(const Cat &other);
         ~Cat();
         void makeSound() const;
+        Brain* getBrain() const;
 };
 
 #endif

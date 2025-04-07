@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/07 13:48:40 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/07 13:56:41 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/04/07 14:14:33 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ class Brain
         ~Brain();
         
         void setIdea(int index, const std::string& idea);
-        std::sting getIdea(int index) const;
+        std::string getIdea(int index) const;
         
 };
 

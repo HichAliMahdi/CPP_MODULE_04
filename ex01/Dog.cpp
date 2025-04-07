@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 18:22:58 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/07 14:07:18 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/04/07 14:16:09 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,4 +46,9 @@ Dog::~Dog()
 void Dog::makeSound() const
 {
     std::cout << "Woof! Woof!" << std::endl;
+}
+
+Brain* Dog::getBrain() const
+{
+    return brain;
 }

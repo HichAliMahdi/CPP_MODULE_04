@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 18:22:28 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/07 14:08:40 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/04/07 14:16:17 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,4 +47,9 @@ Cat::~Cat()
 void    Cat::makeSound() const
 {
     std::cout << "Meow!" << std::endl;
+}
+
+Brain* Cat::getBrain() const
+{
+    return brain;
 }
