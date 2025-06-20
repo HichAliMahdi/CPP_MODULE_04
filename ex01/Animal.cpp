@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 17:39:35 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/06/19 20:47:33 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/06/20 19:17:26 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,6 @@ Animal::Animal(const Animal& other)
 }
 std::string Animal::getType() const
 {
-    std::cout << "Getter called" << std::endl;
     return this->type;
 }
 
