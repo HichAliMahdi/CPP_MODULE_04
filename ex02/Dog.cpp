@@ -6,11 +6,12 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 18:22:58 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/07 14:51:15 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/06/20 19:29:33 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "AAnimal.hpp"
+#include "Dog.hpp"
 
 Dog::Dog() : AAnimal()
 {

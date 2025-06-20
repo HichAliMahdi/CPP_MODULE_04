@@ -6,18 +6,20 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 18:39:24 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/07 14:54:58 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/06/20 19:33:12 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "AAnimal.hpp"
+#include "Dog.hpp"
+#include "Cat.hpp"
 #include "WrongAnimal.hpp"
 #include "Brain.hpp"
 
 int main()
 {
-    std::cout << "\n--- Testing abstract class ---" << std::endl;
-    std::cout << "Attempting to instantiate an abstract Animal class (commented out):" << std::endl;
+    // std::cout << "\n--- Testing abstract class ---" << std::endl;
+    // std::cout << "Attempting to instantiate an abstract Animal class (commented out):" << std::endl;
     // This would cause compile error: cannot instantiate abstract class
     // Animal* abstractAnimal = new Animal();
     
