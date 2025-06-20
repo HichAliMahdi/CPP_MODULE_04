@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 19:00:47 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/06 19:07:02 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/06/20 19:25:44 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,16 +29,6 @@ class WrongAnimal
         void            setType(const std::string type);
         std::string     getType() const;
         void            makeSound() const;
-};
-
-class WrongCat : public WrongAnimal
-{
-    public:
-        WrongCat();
-        WrongCat(const WrongCat& other);
-        ~WrongCat();
-        WrongCat &operator=(const WrongCat &other);
-        void    makeSound() const;
 };
 
 #endif

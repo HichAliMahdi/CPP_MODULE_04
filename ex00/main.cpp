@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 18:39:24 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/06/20 19:10:15 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/06/20 19:22:14 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 #include "Dog.hpp"
 #include "Cat.hpp"
 #include "WrongAnimal.hpp"
+#include "WrongCat.hpp"
 
 int main()
 {
