@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 17:39:35 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/07 14:50:15 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/06/27 06:27:02 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,3 @@ AAnimal& AAnimal::operator=(const AAnimal& other)
     return *this;
 }
 
-void AAnimal::makeSound() const
-{
-    std::cout << "Animal makes a generic sound" << std::endl;
-}

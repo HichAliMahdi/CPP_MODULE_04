@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 18:22:28 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/06/20 18:45:20 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/06/27 06:18:56 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ Cat::Cat() : Animal()
     std::cout << "Cat constructor called" << std::endl;
 }
 
-Cat::Cat(const Cat& other)
+Cat::Cat(const Cat& other) : Animal(other)
 {
     std::cout << "Cat copy constructor called" << std::endl;
 }

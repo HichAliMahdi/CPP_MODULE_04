@@ -6,11 +6,12 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 18:58:15 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/04/06 19:03:16 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/06/27 06:28:18 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "WrongAnimal.hpp"
+#include "WrongCat.hpp"
 
 WrongCat::WrongCat() : WrongAnimal()
 {
