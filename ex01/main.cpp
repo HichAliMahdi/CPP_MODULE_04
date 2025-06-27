@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 18:39:24 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/06/20 19:25:14 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/06/27 06:23:26 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,6 +71,11 @@ int main()
         std::cout << "Deleting animal " << i << " (type: " << animals[i]->getType() << ")" << std::endl;
         delete animals[i];
     }    
+    
+    std::cout << "\n--- Testing Wrong Animals (non-virtual) ---" << std::endl;
+    WrongAnimal* wrongAnimal = new WrongCat();
+    wrongAnimal->makeSound(); // Should output WrongAnimal sound
+    delete wrongAnimal;
     
     std::cout << "--- Program finished successfully ---" << std::endl;
     return 0;
