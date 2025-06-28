@@ -6,7 +6,7 @@
 #    By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/06 18:42:45 by hali-mah          #+#    #+#              #
-#    Updated: 2025/04/07 14:14:16 by hali-mah         ###   ########.fr        #
+#    Updated: 2025/06/28 10:23:56 by hali-mah         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = Brain
 CC = c++
 CFLAGS = -Wall -Werror -Wextra -std=c++17
 
-SRCS = Animal.cpp Dog.cpp Cat.cpp main.cpp WrongAnimal.cpp WrongCat.cpp Brain.cpp
+SRCS = Animal.cpp Dog.cpp Cat.cpp main.cpp Brain.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 all: $(NAME)
