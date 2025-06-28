@@ -6,15 +6,13 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 18:39:24 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/06/27 06:31:14 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/06/28 10:17:33 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "AAnimal.hpp"
 #include "Dog.hpp"
 #include "Cat.hpp"
-#include "WrongAnimal.hpp"
-#include "WrongCat.hpp"
 #include "Brain.hpp"
 
 int main()
