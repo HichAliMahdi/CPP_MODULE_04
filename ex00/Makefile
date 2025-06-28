@@ -6,7 +6,7 @@
 #    By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/06 18:42:45 by hali-mah          #+#    #+#              #
-#    Updated: 2025/04/06 19:04:47 by hali-mah         ###   ########.fr        #
+#    Updated: 2025/06/28 17:09:32 by hali-mah         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,7 @@ OBJS = $(SRCS:.cpp=.o)
 
 all: $(NAME)
 $(NAME): $(OBJS)
-	$(CC) $(CLAFGS) -o $(NAME) $(OBJS)
+	$(CC) $(CFLAGS) -o $(NAME) $(OBJS)
 
 clean:
 	rm -f $(OBJS)
